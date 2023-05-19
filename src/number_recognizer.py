@@ -58,5 +58,5 @@ class NumberRecognizer:
     def recognize(self, image_array):
         image_array = np.expand_dims(image_array, axis=0)  # Add an extra dimension for the batch
         image_array = tf.keras.utils.normalize(image_array, axis=1)  # Normalize the image
-        prediction = self._model.predict(image_array)
+        prediction = self._model.predict(image_array, verbose=None)
         return np.argmax(prediction)
