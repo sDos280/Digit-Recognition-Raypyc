@@ -21,12 +21,12 @@ learning techniques to identify and classify handwritten digits.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/digit-recognition-raypyc.git
+   git clone https://github.com/sDos280/Digit-Recognition-Raypyc
    ```
 
 2. Change to the project directory:
    ```
-   cd digit-recognition-raypyc
+   cd Digit-Recognition-Raypyc
    ```
 
 3. Install the project dependencies:
