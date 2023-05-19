@@ -6,7 +6,7 @@ digit recognition using raypyc
 
 from raypyc import *
 import numpy as np
-from src import number_recognizer
+import number_recognizer
 
 
 def update_array_image_circle(array_image: np.ndarray, circle: Vector2, brush_size: int, left_down: bool):
