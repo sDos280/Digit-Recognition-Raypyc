@@ -45,6 +45,12 @@ learning techniques to identify and classify handwritten digits.
    digit on the canvas,
    and the application will provide a prediction for the drawn digit.
 
+## Acknowledgements
+
+The machine learning model used for digit recognition is based on
+the work in the [number-recognizer](https://github.com/mauro-balades/number-recognizer/tree/main) repository. I
+extend my sincere thanks for providing the network architecture and inspiration for this project.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for
